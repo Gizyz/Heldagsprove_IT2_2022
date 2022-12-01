@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="informationTable"></div>
+    <p>Billet bestilling</p>
+    <form>
+        <select id="konsertSelect">
+            <option value="">Arenaer</option>
+            <option value="0">Oslo Spektrum</option>
+            <option value="1">Mercedes Benz</option>
+            <option value="2">Madison CubeGarden</option>
+        </select>
+        <select id="typeBillet">
+            <option value="sitte">Sittende</option>
+            <option value="stå">Stående</option>
+        </select>
+        <input id="antallBilletter" type="number" max="10" min="0">
+        <input type="submit" value="submit">
+    </form>
+
+    <div id="output"></div>
+
+    <script src="js/oppgave2.js"></script>
+</body>
+</html>
